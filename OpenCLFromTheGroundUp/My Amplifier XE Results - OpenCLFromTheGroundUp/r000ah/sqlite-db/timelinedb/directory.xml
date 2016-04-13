@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<bag xmlns:int="http://www.w3.org/2001/XMLSchema#int" int:version="9" int:type="2">
+ <dbEntry key="GROUP_DEF(type:0 gpu_data /gpu_data::dd_sample.uncore_event_type)" value="4a36-2032-b8fb-bded"/>
+ <dbEntry key="GROUP_DEF(type:0 pmu_data /dd_band::dd_thread/dd_band::dd_thread.process/pmu_data::dd_sample.callsite.bottom_user_cs.code_loc.mod_seg.mod_file/pmu_data::dd_sample.callsite.type_cs.code_loc.func_range.func_inst.function.subtype/pmu_data::dd_sample.callsite.type_cs.code_loc.func_range.func_inst.function.type/pmu_data::dd_sample.cpu/pmu_data::dd_sample.cpu.core/pmu_data::dd_sample.cpu.core.package/pmu_data::dd_sample.event_type)" value="d1b4-536c-162c-58ec"/>
+ <dbEntry key="GROUP_DEF(type:1 gpu_compute_task_data )" value="5428-3fae-8346-464a"/>
+ <dbEntry key="GROUP_DEF(type:2 dma_packet_data /dd_band::dd_gpu_node)" value="e35e-d8b8-18ca-810d"/>
+ <dbEntry key="GROUP_DEF(type:2 gpu_compute_task_data /gpu_compute_task_data::dd_compute_task.queue)" value="5d6d-2d67-2331-31c1"/>
+ <dbEntry key="GROUP_DEF(type:2 gpu_compute_task_data /gpu_compute_task_data::dd_compute_task.queue/gpu_compute_task_data::dd_compute_task.submit_thread)" value="9c37-1d91-a6e3-7749"/>
+ <dbEntry key="GROUP_DEF(type:2 gpu_compute_task_data /gpu_compute_task_data::dd_compute_task.submit_thread)" value="0799-b449-ffc6-19ae"/>
+ <dbEntry key="GROUP_DEF(type:2 task_data /dd_band::dd_thread)" value="5acb-1f24-83bc-d409"/>
+ <dbEntry key="GROUP_DEF(type:3 compute_task_queue_data /compute_task_queue_data::dd_compute_task.queue)" value="6fa9-8856-ba88-1094"/>
+ <dbEntry key="GROUP_DEF(type:3 dma_queue_data /dd_band::dd_gpu_node)" value="7d37-0f6a-3885-2404"/>
+ <dbEntry key="GROUP_DEF(type:3 task_data /dd_band::dd_thread)" value="c3fd-80d8-a039-04ef"/>
+</bag>

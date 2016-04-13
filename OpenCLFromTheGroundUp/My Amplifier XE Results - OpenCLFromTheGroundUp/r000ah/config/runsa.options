@@ -1,0 +1,140 @@
+-r
+c:\Users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp\OpenCLFromTheGroundUp\My Amplifier XE Results - OpenCLFromTheGroundUp\r000ah
+--itt-config=frame
+--stack-stitching
+--no-bandwidth-limits
+--etw-config=dma,frames
+--data-limit-mb=500
+--type=opencl_ex
+--type=opencl,mediasdk
+--itt-config=task
+--gpu-config=preset1:timer=1000us
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=4000000,CPU_CLK_UNHALTED.REF_TSC:sa=4000000,INST_RETIRED.ANY:sa=4000000
+--sample-after-multiplier=1.0
+--event-mux
+--mrte-mode=native
+--etw-config=clr,js
+--search-dir
+sym=c:\users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp\Release
+--search-dir
+sym=c:\users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp
+--search-dir
+sym=srv*C:\Users\brush\AppData\Local\Temp\SymbolCache
+--search-dir
+sym=srv*https://msdl.microsoft.com/download/symbols
+--search-dir
+bin=c:\users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp\Release
+--search-dir
+bin=c:\users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp
+--search-dir
+bin=c:/Users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp\OpenCLFromTheGroundUp\$(VC_ExecutablePath_x86)
+--search-dir
+bin=c:/Users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp\OpenCLFromTheGroundUp\$(WindowsSDK_ExecutablePath)
+--search-dir
+bin=c:/Users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp\OpenCLFromTheGroundUp\$(VS_ExecutablePath)
+--search-dir
+bin=c:/Users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp\OpenCLFromTheGroundUp\$(MSBuild_ExecutablePath)
+--search-dir
+bin=C:\WINDOWS\SysWow64
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries\x86
+--search-dir
+bin=C:\Program Files (x86)\Intel\OpenCL SDK\bin\x64
+--search-dir
+bin=C:\Program Files (x86)\Intel\OpenCL SDK\bin\x86
+--search-dir
+bin=C:\Program Files (x86)\Intel\OpenCL SDK\bin\Pin
+--search-dir
+bin=C:\Program Files (x86)\Intel\OpenCL SDK\bin\GTPin
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler
+--search-dir
+bin=C:\ProgramData\Oracle\Java\javapath
+--search-dir
+bin=C:\Program Files\Microsoft HPC Pack 2012\Bin
+--search-dir
+bin=C:\Program Files (x86)\Intel\iCLS Client
+--search-dir
+bin=C:\Program Files\Intel\iCLS Client
+--search-dir
+bin=C:\Windows\system32
+--search-dir
+bin=C:\Windows
+--search-dir
+bin=C:\Windows\System32\Wbem
+--search-dir
+bin=C:\Windows\System32\WindowsPowerShell\v1.0
+--search-dir
+bin=C:\Program Files\Intel\Intel(R) Management Engine Components\DAL
+--search-dir
+bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL
+--search-dir
+bin=C:\Program Files\Intel\Intel(R) Management Engine Components\IPT
+--search-dir
+bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT
+--search-dir
+bin=C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit
+--search-dir
+bin=C:\Program Files\Microsoft SQL Server\110\Tools\Binn
+--search-dir
+bin=C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0
+--search-dir
+bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn
+--search-dir
+bin=C:\Program Files\Microsoft\Web Platform Installer
+--search-dir
+bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+--search-dir
+bin=C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio
+--search-dir
+bin=C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn
+--search-dir
+bin=C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn
+--search-dir
+bin=C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net TRIAL x64 .Net 4.0\Redist\FFMPEG
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net TRIAL x64 .Net 4.0\Redist\DotNet\4.0
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net TRIAL x64 .Net 4.0\Redist\DotNet\4.0\x64
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net TRIAL x64 .Net 4.0\Redist\VLC
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net TRIAL x64 .Net 4.0\Redist\Filters
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net TRIAL x64 .Net 4.0\Redist\XIPH
+--search-dir
+bin=C:\Program Files (x86)\GtkSharp\2.12\bin
+--search-dir
+bin=C:\Program Files (x86)\Windows Live\Shared
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net FULL x64 .Net 4.0\Redist\FFMPEG
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net FULL x64 .Net 4.0\Redist\DotNet\4.0
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net FULL x64 .Net 4.0\Redist\DotNet\4.0\x64
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net FULL x64 .Net 4.0\Redist\VLC
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net FULL x64 .Net 4.0\Redist\Filters
+--search-dir
+bin=C:\Program Files\VisioForge\VisioForge SDKs .Net FULL x64 .Net 4.0\Redist\XIPH
+--search-dir
+bin=C:\Users\brush\.dnx\bin
+--search-dir
+bin=C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include
+--search-dir
+bin=C:\Program Files (x86)\CMake\bin
+--search-dir
+bin=C:\Program Files (x86)\Binutils for MinGW (64 bit)\bin
+--
+c:\users\brush\documents\visual studio 2015\Projects\OpenCLFromTheGroundUp\Release\OpenCLFromTheGroundUp.exe
